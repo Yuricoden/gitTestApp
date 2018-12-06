@@ -12,3 +12,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+
+body {
+  background: #efefef;
+  padding: 30px;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+}
+.container .users__container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+}
+ .user-box {
+  position: relative;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: box-shadow 100ms, -webkit-transform 100ms;
+  transition: box-shadow 100ms, -webkit-transform 100ms;
+  transition: box-shadow 100ms, transform 100ms;
+  transition: box-shadow 100ms, transform 100ms, -webkit-transform 100ms;
+}
+.user-box:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+ .user-box a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.profile__link {
+  font-size: 0.75rem;
+}
+
+
+.avatar {
+  max-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+ .name {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.screenReader {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+

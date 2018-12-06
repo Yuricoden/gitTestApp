@@ -1,0 +1,38 @@
+.github__user-container {
+    position: relative;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);   
+}
+
+.github-user__cover {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.img-user__wrapper img{
+    max-width: 100%;
+    border-radius: 10%;
+}
+
+.img-user__wrapper {
+    width: 250px;
+    text-align: center;
+}
+
+.title__prop {
+    text-transform: capitalize;
+}
+
+.about__user {
+    margin: 10px;
+}

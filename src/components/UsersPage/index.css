@@ -1,0 +1,23 @@
+.container__pagination {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.arrow__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.paginate_button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    width: 100px;
+}
+
+.button__previous {
+    margin-right: 50px;
+}
